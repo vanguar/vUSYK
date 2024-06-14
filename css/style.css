@@ -276,6 +276,10 @@ a:focus {
   color: #00204a;
 }
 
+.detail-box p span {
+  font-size: 20px;	
+}
+
 .slider_section .detail-box h1 {
   font-size: 3rem;
   font-weight: bold;
