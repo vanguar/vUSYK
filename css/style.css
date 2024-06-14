@@ -947,7 +947,7 @@ a:focus {
 }
 
 
-.detail-box p span {
+.detail-box p span .paralax_size {
   font-size: 20px;	
 }
 
