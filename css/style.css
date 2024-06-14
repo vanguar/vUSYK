@@ -930,3 +930,6 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
+.detail-box p span.paralax_size {
+  font-size: 20px;	
+}
