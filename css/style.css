@@ -955,28 +955,43 @@ div .active_mining_btn {
 
 
 
-/* Добавленный стиль для переключателя языка */
+/* Existing styles for lang-switch */
 .new-code.lang-switch {
-  display: inline-block;
-  padding: 10px 15px;
-  margin: 5px 2px; /* Уменьшено расстояние между кнопками */
-  color: #fff;
-  background-color: #001f3f; /* Темно-синий цвет для неактивной кнопки */
-  border-radius: 5px;
-  text-transform: uppercase;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(255, 255, 255, 0.1);
-}
-
-.new-code.lang-switch.active-lang {
-  background-color: #003366; /* Немного светлее для активной кнопки */
-  box-shadow: inset 5px 5px 10px #001f3f, inset -5px -5px 10px #004080; /* Вогнутая форма */
+    background-color: #00204a;
+    color: #fff;
+    padding: 0; /* Remove padding */
+    border: none;
+    border-radius: 50%; /* Circular shape */
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.6s ease;
+    display: flex; /* Use flexbox for centering text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    width: 40px; /* Set fixed width */
+    height: 40px; /* Set fixed height */
+    margin-right: 5px; /* Adjust spacing between buttons */
 }
 
 .new-code.lang-switch:hover {
-  background-color: #002b5e; /* Цвет при наведении */
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), -3px -3px 5px rgba(255, 255, 255, 0.2);
+    background-color: #003366; /* Slightly different color on hover */
+    color: #fff;
 }
+
+.new-code.lang-switch.active-lang {
+    background-color: #003366;
+    color: #fff;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5); /* Slightly different shadow for active state */
+}
+
+/* Adjust container padding if needed */
+.custom_nav-container .navbar-nav {
+    margin-left: auto;
+    padding-left: 10px; /* Adjust padding for alignment */
+}
+
+
 
 
 
