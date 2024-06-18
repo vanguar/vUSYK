@@ -952,3 +952,36 @@ div .active_mining_btn {
   background-color: #7986cb; /* Светлеющий синий при наведении */
   color: #fff; /* Белый цвет текста, остается без изменений */
 }
+
+
+
+/* Добавленный стиль для переключателя языка */
+.new-code.lang-switch {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px 2px; /* Уменьшено расстояние между кнопками */
+  color: #fff;
+  background-color: #001f3f; /* Темно-синий цвет для неактивной кнопки */
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(255, 255, 255, 0.1);
+}
+
+.new-code.lang-switch.active-lang {
+  background-color: #003366; /* Немного светлее для активной кнопки */
+  box-shadow: inset 5px 5px 10px #001f3f, inset -5px -5px 10px #004080; /* Вогнутая форма */
+}
+
+.new-code.lang-switch:hover {
+  background-color: #002b5e; /* Цвет при наведении */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), -3px -3px 5px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
